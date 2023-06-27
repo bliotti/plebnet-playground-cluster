@@ -364,3 +364,5 @@ volumes/
 backup/
 docker-compose.yaml
 .venv
+venv
+.DS_Store

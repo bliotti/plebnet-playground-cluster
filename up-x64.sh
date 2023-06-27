@@ -11,7 +11,7 @@ python plebnet_generate.py TRIPLET=x86_64-linux-gnu bitcoind=$1 lnd=$1 tor=$torc
 
 #Remove
 docker-compose down 
-sudo rm -rf volumes
+rm -rf volumes
  
 #Create Datafile
 
